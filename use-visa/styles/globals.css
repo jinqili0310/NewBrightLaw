@@ -24,3 +24,33 @@ a {
     background: black;
   }
 }
+
+.ant-card-head {
+  border-bottom: none !important;
+}
+
+.moreButton, .moreButton:hover {
+  border: 1px solid #364d79 !important;
+  /* padding: 6px 12px; */
+  background-color: #364d79 !important;
+  color: #fff !important;
+}
+
+.ant-row.ant-form-item-row {
+  justify-content: flex-end !important;
+}
+
+.footerDiv {
+  background-color: #364d79;
+  color: #fff !important;
+  padding: 40px 80px;
+}
+
+.footerDiv h5 {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.footerDiv ul {
+  padding-left: 1rem;
+}
