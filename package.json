@@ -20,7 +20,6 @@
     "react": "18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "18.2.0",
-    "react-hot-loader": "^4.13.0",
     "webpack": "^5.74.0"
   },
   "devDependencies": {
