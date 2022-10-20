@@ -30,9 +30,9 @@ a {
 }
 
 .moreButton, .moreButton:hover {
-  border: 1px solid #364d79 !important;
+  border: 1px solid #164570 !important;
   /* padding: 6px 12px; */
-  background-color: #364d79 !important;
+  background-color: #164570 !important;
   color: #fff !important;
 }
 
@@ -41,7 +41,7 @@ a {
 }
 
 .footerDiv {
-  background-color: #364d79;
+  background-color: #164570;
   color: #fff !important;
   padding: 40px 80px;
 }
