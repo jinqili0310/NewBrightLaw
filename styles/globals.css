@@ -24,3 +24,50 @@ a {
     background: black;
   }
 }
+
+.ant-card-head {
+  border-bottom: none !important;
+}
+
+.moreButton, .moreButton:hover {
+  border: 1px solid #164570 !important;
+  /* padding: 6px 12px; */
+  background-color: #164570 !important;
+  color: #fff !important;
+}
+
+.ant-row.ant-form-item-row {
+  justify-content: flex-end !important;
+}
+
+.footerDiv {
+  background-color: #164570;
+  color: #fff !important;
+  padding: 40px 80px;
+}
+
+.footerDiv h5 {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.footerDiv ul {
+  padding-left: 1rem;
+}
+
+.hoverContent {
+  display: none;
+  background-color: #989898;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+  padding: 40%;
+}
+
+.gerenadaCard:hover .hoverContent {
+  display: block;
+}
