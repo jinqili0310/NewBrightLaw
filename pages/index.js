@@ -2,8 +2,8 @@
  * @Author: jinqili0310 jinqi.li.310@gmail.com
  * @Date: 2022-10-19 09:46:28
  * @LastEditors: jinqili0310 jinqi.li.310@gmail.com
- * @LastEditTime: 2022-10-19 16:05:05
- * @FilePath: \newbrightlaw\use-visa\pages\index.js
+ * @LastEditTime: 2022-10-19 16:55:20
+ * @FilePath: \newbrightlaw\pages\index.js
  */
 import React from "react";
 import { Carousel, Container, Row, Col, Card, Button } from "react-bootstrap";
@@ -113,20 +113,29 @@ export default function Home() {
         renderItem={(item) => (
           <List.Item key={item.title}>
             <img
+              key={item.title}
               src="https://placehold.jp/200x200.png"
               layout="fill"
               style={{ marginRight: "20px" }}
             ></img>
             <List.Item.Meta
+              key={item.title}
               title={
-                <p style={{ fontWeight: "600", fontSize: "2em" }}>
+                <p
+                  key={item.title}
+                  style={{ fontWeight: "600", fontSize: "2em" }}
+                >
                   {item.title}
                 </p>
               }
               description={[
-                <p>{item.content}</p>,
-                <div style={{ marginTop: "20px" }}>
-                  <Button href={item.url} className="moreButton">
+                <p key={item.title}>{item.content}</p>,
+                <div key={item.title} style={{ marginTop: "20px" }}>
+                  <Button
+                    key={item.title}
+                    href={item.url}
+                    className="moreButton"
+                  >
                     阅读更多
                   </Button>
                 </div>,
@@ -159,9 +168,9 @@ export default function Home() {
         style={{
           padding: "40px 20px 20px",
           backgroundImage: "url(https://placehold.jp/800x400.png)",
-		  backgroundRepeat: "no-repeat",
-		  backgroundSize: "100%",
-		  backgroundPosition: "center"
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "100%",
+          backgroundPosition: "center",
         }}
       >
         <Form.Item
@@ -214,7 +223,7 @@ export default function Home() {
               justifyContent: "center",
             }}
           >
-            <Button href="#" className="moreButton" style={{width: "300px"}}>
+            <Button href="#" className="moreButton" style={{ width: "300px" }}>
               免费资质评估
             </Button>
           </Col>
@@ -227,7 +236,7 @@ export default function Home() {
               justifyContent: "center",
             }}
           >
-            <Button href="#" className="moreButton" style={{width: "300px"}}>
+            <Button href="#" className="moreButton" style={{ width: "300px" }}>
               预约付费咨询
             </Button>
           </Col>
