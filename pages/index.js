@@ -15,7 +15,7 @@ export default function Home() {
     height: "500px",
     color: "#fff",
     textAlign: "center",
-    background: "#364d79",
+    background: "#a2a2a2",
   };
 
   const formStyle = {
@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
     <React.Fragment>
-      <Carousel>
+      <Carousel fade>
         <Carousel.Item style={carouselStyle}>
           <Carousel.Caption>
             <h3 style={{ lineHeight: "400px", color: "#fff" }}>
