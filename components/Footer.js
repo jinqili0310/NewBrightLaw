@@ -1,8 +1,8 @@
 /*
  * @Date: 2022-10-19 16:24:21
- * @LastEditors: jinqili0310 jinqi.li.310@gmail.com
- * @LastEditTime: 2022-10-19 16:41:49
- * @FilePath: \newbrightlaw\use-visa\components\Footer.js
+ * @LastEditors: Jinqi Li
+ * @LastEditTime: 2022-11-06 14:36:17
+ * @FilePath: /NewBrightLaw/components/Footer.js
  */
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
@@ -17,24 +17,24 @@ export default function Footer() {
             <Col xs={12} sm={6} md={3}>
               <h5>关于我们</h5>
               <ul>
-                <li>认识我们</li>
-                <li>律师团队</li>
-                <li>选择我们</li>
-              </ul>
-            </Col>
-            <Col xs={12} sm={6} md={3}>
-              <h5>常用链接</h5>
-              <ul>
-                <li>服务合约</li>
-                <li>免费资质评估</li>
-                <li>预约付费咨询</li>
+                <li><a>律所介绍</a></li>
+                <li><a>团队介绍</a></li>
+                <li><a>服务流程</a></li>
+                <li><a>联系方式</a></li>
               </ul>
             </Col>
             <Col xs={12} sm={6} md={3}>
               <h5>成功案例</h5>
               <ul>
-                <li>EB1A特殊人才</li>
-                <li>NIW国家利益豁免</li>
+                <li><a>EB-1 A 特殊人才</a></li>
+                <li><a>NIW 国家利益豁免</a></li>
+              </ul>
+            </Col>
+            <Col xs={12} sm={6} md={3}>
+              <h5>视频和文章</h5>
+              <ul>
+                <li><a>视频合集</a></li>
+                <li><a>文章合集</a></li>
               </ul>
             </Col>
             <Col xs={12} sm={6} md={3}>

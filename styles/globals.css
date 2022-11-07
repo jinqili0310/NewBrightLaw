@@ -54,3 +54,7 @@ a {
 .footerDiv ul {
   padding-left: 1rem;
 }
+
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1 !important;
+}

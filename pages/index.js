@@ -1,9 +1,9 @@
 /*
  * @Author: jinqili0310 jinqi.li.310@gmail.com
  * @Date: 2022-10-19 09:46:28
- * @LastEditors: jinqili0310 jinqi.li.310@gmail.com
- * @LastEditTime: 2022-10-19 16:55:20
- * @FilePath: \newbrightlaw\pages\index.js
+ * @LastEditors: Jinqi Li
+ * @LastEditTime: 2022-11-06 14:30:52
+ * @FilePath: /NewBrightLaw/pages/index.js
  */
 import React from "react";
 import { Carousel, Container, Row, Col, Card, Button } from "react-bootstrap";
@@ -12,10 +12,12 @@ import { successStories } from "../data";
 
 export default function Home() {
   const carouselStyle = {
-    height: "500px",
+    height: "600px",
     color: "#fff",
     textAlign: "center",
-    background: "#a2a2a2",
+    backgroundPosition: "center",
+    backgroundSize: "100%",
+    backgroundRepeat: "no-repeat",
   };
 
   const formStyle = {
@@ -47,25 +49,46 @@ export default function Home() {
   return (
     <React.Fragment>
       <Carousel fade>
-        <Carousel.Item style={carouselStyle}>
+        <Carousel.Item
+          style={{
+            ...carouselStyle,
+            backgroundImage: "url(/assets/pexels-yan-krukov-7698801.jpg)",
+          }}
+        >
           <Carousel.Caption>
-            <h3 style={{ lineHeight: "400px", color: "#fff" }}>
-              First slide label
-            </h3>
+            <h3 style={{ lineHeight: "500px", color: "#fff" }}>1</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item style={carouselStyle}>
+        <Carousel.Item
+          style={{
+            ...carouselStyle,
+            backgroundImage:
+              "url(/assets/pexels-karolina-grabowska-7876051.jpg)",
+          }}
+        >
           <Carousel.Caption>
-            <h3 style={{ lineHeight: "400px", color: "#fff" }}>
-              Second slide label
-            </h3>
+            <h3 style={{ lineHeight: "500px", color: "#fff" }}>2</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item style={carouselStyle}>
+        <Carousel.Item
+          style={{
+            ...carouselStyle,
+            backgroundImage: "url(/assets/pexels-vlada-karpovich-4609046.jpg)",
+          }}
+        >
           <Carousel.Caption>
-            <h3 style={{ lineHeight: "400px", color: "#fff" }}>
-              Third slide label
-            </h3>
+            <h3 style={{ lineHeight: "500px", color: "#fff" }}>3</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item
+          style={{
+            ...carouselStyle,
+            backgroundImage:
+              "url(/assets/pexels-vladislav-vasnetsov-12478054.jpg)",
+          }}
+        >
+          <Carousel.Caption>
+            <h3 style={{ lineHeight: "500px", color: "#fff" }}>4</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -75,8 +98,13 @@ export default function Home() {
           <Col sm={12} md={6} style={{ marginBottom: "10px" }}>
             <Card style={{ border: "none" }}>
               <Card.Body>
-                <Card.Title>EB1A特殊人才移民</Card.Title>
-                <Card.Text>content</Card.Text>
+                <Card.Title>EB-1 A 特殊人才移民</Card.Title>
+                <Card.Text>
+                  <h5>(Alien of Extraordinary Ability)</h5>
+                  <p style={{ fontSize: "18px", margin: "20px 0" }}>
+                    第一优先级美国职业移民方式之一，适用于科学、艺术、运动、商业、及音乐领域的顶尖人才。拥有常用职业移民类别中最短的排期。可以不依靠雇主自己独立申请。
+                  </p>
+                </Card.Text>
                 <Button className="moreButton">阅读更多</Button>
               </Card.Body>
             </Card>
@@ -84,8 +112,13 @@ export default function Home() {
           <Col sm={12} md={6} style={{ marginBottom: "10px" }}>
             <Card style={{ border: "none" }}>
               <Card.Body>
-                <Card.Title>NIW国家利益豁免移民</Card.Title>
-                <Card.Text>content</Card.Text>
+                <Card.Title>NIW 国家利益豁免移民</Card.Title>
+                <Card.Text>
+                  <h5>(National Interest Waiver)</h5>
+                  <p style={{ fontSize: "18px", margin: "20px 0" }}>
+                    第二优先级美国职业移民方式之一，为能促进美国国家利益的高学历和杰出人才认识设立。排期短，亦可以不依靠雇主自己独立申请。
+                  </p>
+                </Card.Text>
                 <Button className="moreButton">阅读更多</Button>
               </Card.Body>
             </Card>
@@ -93,7 +126,7 @@ export default function Home() {
         </Row>
       </Container>
 
-      <Card className="bg-light text-black" style={{ border: "none" }}>
+      {/* <Card className="bg-light text-black" style={{ border: "none" }}>
         <Card.Img
           src="https://placehold.jp/800x400.png"
           className="home-lg-img"
@@ -104,8 +137,9 @@ export default function Home() {
           <Card.Text>content</Card.Text>
           <Button className="moreButton">了解更多</Button>
         </Card.ImgOverlay>
-      </Card>
+      </Card> */}
 
+      <h2 style={{ textAlign: "center" }}>成功案例</h2>
       <List
         itemLayout="horizontal"
         dataSource={successStories}
@@ -167,10 +201,10 @@ export default function Home() {
         }}
         style={{
           padding: "40px 20px 20px",
-          backgroundImage: "url(https://placehold.jp/800x400.png)",
+          backgroundImage: "url(/assets/pexels-pavel-danilyuk-8112172.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100%",
-          backgroundPosition: "center",
+          backgroundPosition: "top",
         }}
       >
         <Form.Item
