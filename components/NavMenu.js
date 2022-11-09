@@ -1,9 +1,9 @@
 /*
  * @Author: Jinqi Li
  * @Date: 2022-10-19 01:03:25
- * @LastEditors: jinqili0310 jinqi.li.310@gmail.com
- * @LastEditTime: 2022-11-08 17:15:38
- * @FilePath: \newbrightlaw\components\NavMenu.js
+ * @LastEditors: Jinqi Li
+ * @LastEditTime: 2022-11-08 22:49:47
+ * @FilePath: /NewBrightLaw/components/NavMenu.js
  */
 import React, { useState } from "react";
 import {
@@ -23,7 +23,7 @@ export default function NavMenu() {
       <Container>
         <Navbar.Brand href="/">
           <img
-            alt=""
+            alt="newbright"
             src="/newbright-icon2.jpg"
             width="42"
             height="39"
