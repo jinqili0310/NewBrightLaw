@@ -1,9 +1,9 @@
 /*
  * @Author: jinqili0310 jinqi.li.310@gmail.com
  * @Date: 2022-10-19 09:46:28
- * @LastEditors: Jinqi Li
- * @LastEditTime: 2022-11-06 14:30:52
- * @FilePath: /NewBrightLaw/pages/index.js
+ * @LastEditors: jinqili0310 jinqi.li.310@gmail.com
+ * @LastEditTime: 2022-11-08 15:08:02
+ * @FilePath: \newbrightlaw\pages\index.js
  */
 import React from "react";
 import { Carousel, Container, Row, Col, Card, Button } from "react-bootstrap";
@@ -148,6 +148,7 @@ export default function Home() {
           <List.Item key={item.title}>
             <img
               key={item.title}
+              alt={item.title}
               src="https://placehold.jp/200x200.png"
               layout="fill"
               style={{ marginRight: "20px" }}

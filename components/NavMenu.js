@@ -1,9 +1,9 @@
 /*
  * @Author: Jinqi Li
  * @Date: 2022-10-19 01:03:25
- * @LastEditors: Jinqi Li
- * @LastEditTime: 2022-11-06 13:56:35
- * @FilePath: /NewBrightLaw/components/NavMenu.js
+ * @LastEditors: jinqili0310 jinqi.li.310@gmail.com
+ * @LastEditTime: 2022-11-08 17:15:38
+ * @FilePath: \newbrightlaw\components\NavMenu.js
  */
 import React, { useState } from "react";
 import {
@@ -21,7 +21,7 @@ export default function NavMenu() {
   return (
     <Navbar bg="light" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             alt=""
             src="/newbright-icon2.jpg"
@@ -48,10 +48,10 @@ export default function NavMenu() {
         >
           <Nav style={{ marginRight: "1em !important" }}>
             <NavDropdown title="关于我们" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/1.1">律所介绍</NavDropdown.Item>
-              <NavDropdown.Item href="#action/1.2">团队介绍</NavDropdown.Item>
-              <NavDropdown.Item href="#action/1.3">服务流程</NavDropdown.Item>
-              <NavDropdown.Item href="#action/1.4">联系方式</NavDropdown.Item>
+              <NavDropdown.Item href="/about-us">律所介绍</NavDropdown.Item>
+              <NavDropdown.Item href="/about-us">团队介绍</NavDropdown.Item>
+              <NavDropdown.Item href="/about-us">服务流程</NavDropdown.Item>
+              <NavDropdown.Item href="/about-us">联系方式</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="EB-1 A 杰出人才" id="basic-nav-dropdown">
