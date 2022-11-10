@@ -1,9 +1,9 @@
 /*
  * @Author: Jinqi Li
  * @Date: 2022-10-19 01:03:25
- * @LastEditors: Jinqi Li
- * @LastEditTime: 2022-11-08 22:49:47
- * @FilePath: /NewBrightLaw/components/NavMenu.js
+ * @LastEditors: jinqili0310 jinqi.li.310@gmail.com
+ * @LastEditTime: 2022-11-09 17:44:50
+ * @FilePath: \newbrightlaw\components\NavMenu.js
  */
 import React, { useState } from "react";
 import {
@@ -55,25 +55,25 @@ export default function NavMenu() {
             </NavDropdown>
 
             <NavDropdown title="EB-1 A 杰出人才" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#">简要概述</NavDropdown.Item>
-              <NavDropdown.Item href="#">申请群体</NavDropdown.Item>
-              <NavDropdown.Item href="#">审理标准</NavDropdown.Item>
-              <NavDropdown.Item href="#">申请流程</NavDropdown.Item>
-              <NavDropdown.Item href="#">材料清单</NavDropdown.Item>
-              <NavDropdown.Item href="#">视频讲解</NavDropdown.Item>
-              <NavDropdown.Item href="#">相关文章</NavDropdown.Item>
-              <NavDropdown.Item href="#">常见问题</NavDropdown.Item>
+              <NavDropdown.Item href="/eb1a">简要概述</NavDropdown.Item>
+              <NavDropdown.Item href="/eb1a">申请群体</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/eb1a">审理标准</NavDropdown.Item> */}
+              <NavDropdown.Item href="/eb1a">申请流程</NavDropdown.Item>
+              <NavDropdown.Item href="/eb1a">材料清单</NavDropdown.Item>
+              <NavDropdown.Item href="/eb1a">视频讲解</NavDropdown.Item>
+              <NavDropdown.Item href="/eb1a">相关文章</NavDropdown.Item>
+              <NavDropdown.Item href="/eb1a">常见问题</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="NIW 国家利益豁免" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#">简要概述</NavDropdown.Item>
-              <NavDropdown.Item href="#">申请群体</NavDropdown.Item>
-              <NavDropdown.Item href="#">审理标准</NavDropdown.Item>
-              <NavDropdown.Item href="#">申请流程</NavDropdown.Item>
-              <NavDropdown.Item href="#">材料清单</NavDropdown.Item>
-              <NavDropdown.Item href="#">视频讲解</NavDropdown.Item>
-              <NavDropdown.Item href="#">相关文章</NavDropdown.Item>
-              <NavDropdown.Item href="#">常见问题</NavDropdown.Item>
+              <NavDropdown.Item href="/niw">简要概述</NavDropdown.Item>
+              <NavDropdown.Item href="/niw">申请群体</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/niw">审理标准</NavDropdown.Item> */}
+              <NavDropdown.Item href="/niw">申请流程</NavDropdown.Item>
+              <NavDropdown.Item href="/niw">材料清单</NavDropdown.Item>
+              <NavDropdown.Item href="/niw">视频讲解</NavDropdown.Item>
+              <NavDropdown.Item href="/niw">相关文章</NavDropdown.Item>
+              <NavDropdown.Item href="/niw">常见问题</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="成功案例" id="basic-nav-dropdown">

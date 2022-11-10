@@ -2,7 +2,7 @@
  * @Author: jinqili0310 jinqi.li.310@gmail.com
  * @Date: 2022-10-19 09:46:28
  * @LastEditors: jinqili0310 jinqi.li.310@gmail.com
- * @LastEditTime: 2022-11-08 15:08:02
+ * @LastEditTime: 2022-11-09 14:31:21
  * @FilePath: \newbrightlaw\pages\index.js
  */
 import React from "react";
@@ -98,12 +98,14 @@ export default function Home() {
           <Col sm={12} md={6} style={{ marginBottom: "10px" }}>
             <Card style={{ border: "none" }}>
               <Card.Body>
-                <Card.Title>EB-1 A 特殊人才移民</Card.Title>
-                <Card.Text>
+                <Card.Title>
+                  <h4>EB-1 A 特殊人才移民</h4>
                   <h5>(Alien of Extraordinary Ability)</h5>
-                  <p style={{ fontSize: "18px", margin: "20px 0" }}>
+                </Card.Title>
+                <Card.Text>
+                  <span style={{ fontSize: "18px", margin: "20px 0", display: "block" }}>
                     第一优先级美国职业移民方式之一，适用于科学、艺术、运动、商业、及音乐领域的顶尖人才。拥有常用职业移民类别中最短的排期。可以不依靠雇主自己独立申请。
-                  </p>
+                  </span>
                 </Card.Text>
                 <Button className="moreButton">阅读更多</Button>
               </Card.Body>
@@ -112,12 +114,14 @@ export default function Home() {
           <Col sm={12} md={6} style={{ marginBottom: "10px" }}>
             <Card style={{ border: "none" }}>
               <Card.Body>
-                <Card.Title>NIW 国家利益豁免移民</Card.Title>
-                <Card.Text>
+                <Card.Title>
+                  <h4>NIW 国家利益豁免移民</h4>
                   <h5>(National Interest Waiver)</h5>
-                  <p style={{ fontSize: "18px", margin: "20px 0" }}>
+                </Card.Title>
+                <Card.Text>
+                  <span style={{ fontSize: "18px", margin: "20px 0", display: "block" }}>
                     第二优先级美国职业移民方式之一，为能促进美国国家利益的高学历和杰出人才认识设立。排期短，亦可以不依靠雇主自己独立申请。
-                  </p>
+                  </span>
                 </Card.Text>
                 <Button className="moreButton">阅读更多</Button>
               </Card.Body>
