@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /*
  * @Date: 2022-10-19 16:24:21
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2022-11-06 14:36:17
+ * @LastEditTime: 2022-11-10 00:29:38
  * @FilePath: /NewBrightLaw/components/Footer.js
  */
 import React from "react";
@@ -15,12 +16,12 @@ export default function Footer() {
         <Container>
           <Row>
             <Col xs={12} sm={6} md={3}>
-              <h5>关于我们</h5>
+              <h5><a href="/about-us" style={{color: "#fff"}}>关于我们</a></h5>
               <ul>
-                <li><a>律所介绍</a></li>
-                <li><a>团队介绍</a></li>
-                <li><a>服务流程</a></li>
-                <li><a>联系方式</a></li>
+                <li><a href="/about-us" style={{color: "#fff"}}>律所介绍</a></li>
+                <li><a href="/about-us" style={{color: "#fff"}}>团队介绍</a></li>
+                <li><a href="/about-us" style={{color: "#fff"}}>服务流程</a></li>
+                <li><a href="/about-us" style={{color: "#fff"}}>联系方式</a></li>
               </ul>
             </Col>
             <Col xs={12} sm={6} md={3}>
