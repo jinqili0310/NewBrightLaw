@@ -71,3 +71,32 @@ a {
 .gerenadaCard:hover .hoverContent {
   display: block;
 }
+
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1 !important;
+}
+
+.aboutus-team .ant-card-bordered {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+
+.aboutus-team .ant-card-cover img {
+  object-fit: cover;
+  object-position: top;
+  width: 240px;
+  height: 240px;
+}
+
+.aboutus-team .ant-card-meta-detail {
+  text-align: center;
+}
+
+.aboutus-team {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}

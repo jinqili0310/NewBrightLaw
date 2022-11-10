@@ -3,7 +3,7 @@
  * @Author: Jinqi Li
  * @Date: 2022-10-20 00:01:58
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2022-10-20 00:06:24
+ * @LastEditTime: 2022-11-10 01:13:02
  * @FilePath: /NewBrightLaw/components/Footer.js
  */
 import React from "react";
@@ -21,15 +21,15 @@ export default function Footer() {
             </Col>
             <Col xs={12} sm={6} md={3}>
               <ul>
-                <li>热门E2条约国家</li>
-                <li>E2条约国投资人签证</li>
-                <li>从E2到绿卡</li>
+                <li>热门E-2条约国家</li>
+                <li>E-2条约国投资人签证</li>
+                <li>从E-2到绿卡</li>
               </ul>
             </Col>
             <Col xs={12} sm={6} md={3}>
               <ul>
                 <li>关于我们</li>
-                <li>成功故事</li>
+                <li>成功案例</li>
                 <li>联系我们</li>
               </ul>
             </Col>
