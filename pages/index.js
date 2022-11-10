@@ -1,9 +1,9 @@
 /*
  * @Author: jinqili0310 jinqi.li.310@gmail.com
  * @Date: 2022-10-19 09:46:28
- * @LastEditors: jinqili0310 jinqi.li.310@gmail.com
- * @LastEditTime: 2022-11-09 14:31:21
- * @FilePath: \newbrightlaw\pages\index.js
+ * @LastEditors: Jinqi Li
+ * @LastEditTime: 2022-11-10 00:55:46
+ * @FilePath: /NewBrightLaw/pages/index.js
  */
 import React from "react";
 import { Carousel, Container, Row, Col, Card, Button } from "react-bootstrap";
@@ -56,7 +56,7 @@ export default function Home() {
           }}
         >
           <Carousel.Caption>
-            <h3 style={{ lineHeight: "500px", color: "#fff" }}>1</h3>
+            {/* <h3 style={{ lineHeight: "500px", color: "#fff" }}>1</h3> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item
@@ -67,7 +67,7 @@ export default function Home() {
           }}
         >
           <Carousel.Caption>
-            <h3 style={{ lineHeight: "500px", color: "#fff" }}>2</h3>
+            {/* <h3 style={{ lineHeight: "500px", color: "#fff" }}>2</h3> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item
@@ -77,7 +77,7 @@ export default function Home() {
           }}
         >
           <Carousel.Caption>
-            <h3 style={{ lineHeight: "500px", color: "#fff" }}>3</h3>
+            {/* <h3 style={{ lineHeight: "500px", color: "#fff" }}>3</h3> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item
@@ -88,7 +88,7 @@ export default function Home() {
           }}
         >
           <Carousel.Caption>
-            <h3 style={{ lineHeight: "500px", color: "#fff" }}>4</h3>
+            {/* <h3 style={{ lineHeight: "500px", color: "#fff" }}>4</h3> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -107,7 +107,7 @@ export default function Home() {
                     第一优先级美国职业移民方式之一，适用于科学、艺术、运动、商业、及音乐领域的顶尖人才。拥有常用职业移民类别中最短的排期。可以不依靠雇主自己独立申请。
                   </span>
                 </Card.Text>
-                <Button className="moreButton">阅读更多</Button>
+                <Button className="moreButton" href="/eb1a">阅读更多</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -123,7 +123,7 @@ export default function Home() {
                     第二优先级美国职业移民方式之一，为能促进美国国家利益的高学历和杰出人才认识设立。排期短，亦可以不依靠雇主自己独立申请。
                   </span>
                 </Card.Text>
-                <Button className="moreButton">阅读更多</Button>
+                <Button className="moreButton" href="/niw">阅读更多</Button>
               </Card.Body>
             </Card>
           </Col>
