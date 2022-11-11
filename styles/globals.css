@@ -19,6 +19,7 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
@@ -59,13 +60,13 @@ a {
   display: none;
   background-color: #989898;
   width: 100%;
-  height: 100%;
+  height: 400px;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   z-index: 9;
-  padding: 40%;
+  padding: 160px;
 }
 
 .gerenadaCard:hover .hoverContent {
@@ -99,4 +100,37 @@ a {
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+
+#countryGroup .card-title, #countryGroup .card-text, #benefitGroup .card-title, #benefitGroup .card-text {
+  color: #fff;
+  font-weight: 600;
+}
+
+#countryGroup .card-title, #benefitGroup .card-title {
+  font-size: 32px;
+}
+
+#countryGroup .card-text, #benefitGroup .card-text {
+  font-size: 20px;
+}
+
+#countryGroup .card-grenada:hover .card-img-overlay, #countryGroup .card-turkey:hover .card-img-overlay,
+#countryGroup .card-moldova:hover .card-img-overlay, #countryGroup .card-bulgaria:hover .card-img-overlay {
+  background-color: #164570;
+}
+
+#benefitGroup .card-title {
+  margin-top: 140px;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 0.2em;
+}
+
+#benefitGroup .card-text {
+  padding-bottom: 20px;
+}
+
+#benefitGroup .card-title, #benefitGroup .card-text {
+  background-color: #164570;
 }
